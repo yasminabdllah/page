@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("download (19).jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    
+    padding: 10%;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+.logo{
+    color: azure;
+    font-size: 2.5rem;
+    padding-bottom: 60px;
+}
+.paragraf{
+    display: block;
+    color: azure;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    
+}
+.Lorem{
+    text-transform: lowercase;
+    color: azure;
+    font-size: 1rem;
+    padding-bottom: 30px;
+}
+button{
+    border:1px solid azure;
+    color: azure;
+    text-transform: uppercase;
+    background-color: transparent;
+    padding: 10px;
+
+}
+.button:hover{
+    color:rgb(255, 166, 106) ;
+    border:1px solid rgb(255, 166, 106) ;
+    scale: 1.1;
+}
+.minicontainer{
+    display: block;
+    background-color: azure;
+    text-transform: uppercase;
+    margin: 60px;
+    
+}
+.minicontainer input{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    border-bottom: 0.6px  rgb(177, 154, 113) solid;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+
+}
+.head{
+    text-align: center;
+    color: azure;
+    padding: 15px;
+    background-color: rgb(196, 183, 160);
+    
+}
+.minicontainer button{
+    background-color:rgb(255, 166, 106) ;
+    margin-top: 20px;
+    width: 100%;
+    padding: 15px;
+  
+}
+.minicontainer button:hover{
+    background-color:rgb(239, 124, 47) ;
+    scale: 1.1;
+}
+.footer{
+    display: flex;
+    color:  rgb(114, 106, 92);
+    padding-left: 10%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    justify-content: space-between;
+}
+.footer h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer p{
+    padding: 5px;
+}
+.icon {
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 50%;
+    text-align: center;
+    background-color:rgb(239, 124, 47); 
+    font-size: 40px;
+}
+.social button:hover{
+    scale: 1.1;
+    
+}
